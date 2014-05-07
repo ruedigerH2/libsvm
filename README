@@ -1,4 +1,4 @@
-This Version of libsvm provides a modiefed makefile for creating 
+This Version of libsvm provides a modified makefile for creating 
 libsvm as library on osx and linux.
 
 
