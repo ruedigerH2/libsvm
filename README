@@ -1,13 +1,18 @@
 This Version of libsvm provides a modified makefile for creating 
-libsvm as library on osx and linux.
+libsvm as library on OS X(10.9) and linux. The makefile adds an install and
+uninstall target.
+
+Installing as dynamic/shared library:
+
+$ make lib
+$ make install
+
+// Uninstall
+//make uninstall
 
 
 
-
-
-
-
-
+=====================================================================================
 
 
 
