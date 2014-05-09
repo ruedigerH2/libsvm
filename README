@@ -4,11 +4,18 @@ uninstall target.
 
 Installing as dynamic/shared library:
 
-$ make lib
-$ make install
+	$ make lib
+	$ make install
+	
+	Installs libsvm into:
+		- /usr/local/lib/libsvm
+		- /usr/local/include/libsvm
 
-// Uninstall
-//make uninstall
+	
+	To uninstall:
+	$ make uninstall
+
+	
 
 
 
