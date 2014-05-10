@@ -18,7 +18,7 @@ lib: svm.o
 			@$(CXX) $${SHARED_LIB_FLAG} svm.o -o libsvm.$(SHVER).dylib
         endif
     else 
-		@SHARED_LIB_FLAG="-shared -Wl,-soname,libsvm.so.$(SHVER)";
+		@SHARED_LIB_FLAG="-shared -Wl,-soname,/usr/local/lib/libsvm/libsvm.so.$(SHVER)";
 		@$(CXX) $${SHARED_LIB_FLAG} svm.o -o libsvm.so.$(SHVER)
     endif
 
